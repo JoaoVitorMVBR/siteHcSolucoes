@@ -1,0 +1,48 @@
+# Ignorar node_modules do frontend
+/frontend/node_modules/
+
+# Ignorar build do Next.js
+/frontend/.next/
+/frontend/out/
+
+# Ignorar arquivos de ambiente do frontend
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Ignorar logs no frontend
+/frontend/logs/
+frontend/*.log
+
+# Ignorar configurações de editor no frontend
+/frontend/.vscode/
+frontend/.idea/
+frontend/*.sublime-project
+frontend/*.sublime-workspace
+
+# Ignorar relatórios de teste
+/frontend/coverage/
+
+# Ignorar builds e dist
+/frontend/dist/
+
+# Ignorar lixos do sistema operacional
+/frontend/.DS_Store
+/frontend/Thumbs.db
+
+# Ignorar arquivos de lock duplicados
+/frontend/package-lock.json
+/frontend/yarn.lock
+/frontend/pnpm-lock.yaml
+/frontend/bun.lockb
+
+# Opcional: ignorar pastas de assets temporários
+/frontend/public/static/
+/frontend/public/images/
+
+
+# Ignorar Storybook se usar
+/frontend/.storybook-out/
+/frontend/out-storybook/
