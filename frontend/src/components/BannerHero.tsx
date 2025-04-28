@@ -22,9 +22,9 @@ const BannerHero: React.FC = () => {
 
       {/* Conteúdo */}
       <div className="relative z-10 text-center text-white px-4">
-        {/* <h1 className="font-moondance text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-[#ffffff] mb-4 tracking-wide">
-          HC Soluções
-        </h1> */}
+        {/* <h3 className="font-moondance text-lg sm:text-4xl md:text-6xl lg:text-7xl text-[#ffffff] mb-4 tracking-wide">
+          Nosso produto é a sua segurança
+        </h3> */}
         {/* <Link
           href="/vestidos"
           className="inline-block bg-[#cc936b] text-[#641311] font-[Poppins-light] text-xs md:text-xs  py-3 px-6 rounded-md hover:bg-[#cc936b]/80 transition-colors duration-300"

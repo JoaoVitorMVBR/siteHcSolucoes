@@ -12,9 +12,9 @@ const Footer: React.FC = () => {
           <div className="flex flex-col items-center md:items-start">
             <Link
               href="/"
-              className="font-moondance text-3xl md:text-4xl text-[#ffffff] tracking-wide"
+              className="font-[roboto-standard] text-3xl md:text-4xl text-[#ffffff] tracking-wide"
             >
-              HC SOLUÇÕES
+              HC soluções
             </Link>
           </div>
 
