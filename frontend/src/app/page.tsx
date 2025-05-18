@@ -4,7 +4,7 @@ import HeroBanner from '@/components/BannerHero';
 import FAQSection from '@/components/Faq';
 import Footer from '@/components/Footer';
 import Highlights from '@/components/Highlights';
-import Whyget from '@/components/Whyget';
+import Whychose from '@/components/whyChose';
 import SocialProof from '@/components/SocialProof';
 
 export default function HomePage() {
@@ -19,7 +19,7 @@ export default function HomePage() {
       <main className="flex-grow">
         <HeroBanner />
         <Highlights />
-        <Whyget />
+        <Whychose />
         <SocialProof />
         <FAQSection />
       </main>

@@ -7,20 +7,20 @@ import { FaStar } from 'react-icons/fa';
 const SocialProof: React.FC = () => {
   const testimonials = [
     {
-      name: 'Ana Silva',
-      text: 'Alugar meu vestido no Ateliê Sofia foi uma experiência incrível! O atendimento foi impecável, e o vestido era simplesmente perfeito.',
+      name: 'Elson',
+      text: 'Muito boa sua palestra de hoje!',
       rating: 5,
       image: '/images/imgWoman.jpeg',
     },
     {
-      name: 'Mariana Costa',
-      text: 'Os vestidos são de altíssima qualidade, e o processo de aluguel é super prático. Me senti uma verdadeira princesa no meu evento!',
+      name: 'Moisés',
+      text: 'Seria bom falar com vocês o dia todo para aprender mais! Várias pessoas me mandaram mensagem falando que foi muito bom.',
       rating: 5,
       image: '/images/imgWoman.jpeg',
     },
     {
-      name: 'Beatriz Lima',
-      text: 'Amei a exclusividade das peças e a atenção aos detalhes. Recomendo o Ateliê Sofia para qualquer ocasião especial!',
+      name: 'Jefferson',
+      text: 'Muito top seu treinamento. Obrigado!',
       rating: 4,
       image: '/images/imgWoman.jpeg',
     },
@@ -39,13 +39,6 @@ const SocialProof: React.FC = () => {
               className="bg-white border border-[#100878] rounded-lg p-6 shadow-md text-center flex flex-col items-center"
             >
               <div className="relative w-16 h-16 mb-4">
-                <Image
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  fill
-                  className="rounded-full object-cover"
-                  quality={75}
-                />
               </div>
               <h3 className="font-[roboto-standard] text-xl text-[#000000]">
                 {testimonial.name}

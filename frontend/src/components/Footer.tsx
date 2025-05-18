@@ -5,7 +5,7 @@ import { FaInstagram, FaFacebook, FaWhatsapp } from 'react-icons/fa'
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#100878] text-white py-8 w-full m-0">
+    <footer className="bg-[#032970] text-white py-8 w-full m-0">
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center text-center">
           {/* Logo */}
@@ -24,10 +24,10 @@ const Footer: React.FC = () => {
               Contato
             </h3>
             <p className="font-[roboto-standard] text-sm md:text-base">
-              Email: contato@seusite.com
+              Email: henrique.cfc@hotmail.com
             </p>
             <p className="font-[roboto-standard] text-sm md:text-base">
-              Telefone: (11) 1234-5678
+              Telefone: (31)99938-3852
             </p>
           </div>
 
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
             </h3>
             <div className="flex justify-center md:justify-start space-x-6">
               <Link
-                href="https://instagram.com/seuperfil"
+                href="https://www.instagram.com/henrique.cfc/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
                 <FaFacebook className="text-[#ffffff] text-2xl hover:text-white transition-colors duration-300" />
               </Link>
               <Link
-                href="https://wa.me/551112345678"
+                href="https://wa.me/5531999383852?text=Olá,%20tenho%20uma%20pergunta%20sobre%20os%20treinamentos"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
 
         {/* Linha de Copyright */}
         <div className="font-[roboto-standard] max-w-7xl mx-auto mt-8 text-center text-sm text-[#ffffff]/80">
-          © {new Date().getFullYear()} Seu Site. Todos os direitos reservados.
+          © {new Date().getFullYear()} Henrique Soluções. Todos os direitos reservados.
         </div>
       </div>
     </footer>

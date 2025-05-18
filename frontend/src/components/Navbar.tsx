@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
   }
 
   return (
-    <nav className="bg-[#100878] text-white fixed w-full z-20 top-0 shadow-lg transition-all duration-300">
+    <nav className="bg-[#032970] text-white fixed w-full z-20 top-0 shadow-lg transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Mobile menu button */}
