@@ -6,6 +6,10 @@ import Footer from '@/components/Footer';
 import Highlights from '@/components/Highlights';
 import Whychose from '@/components/whyChose';
 import SocialProof from '@/components/SocialProof';
+import WppFloat from '@/components/wppFloat';
+import About from '@/components/About';
+import WhyNotchose from '@/components/whyNotChose';
+
 
 export default function HomePage() {
   return (
@@ -20,8 +24,11 @@ export default function HomePage() {
         <HeroBanner />
         <Highlights />
         <Whychose />
+        <About />
         <SocialProof />
-        <FAQSection />
+        <WhyNotchose /> 
+        {/* <FAQSection /> */}
+        <WppFloat />
       </main>
 
       {/* Rodapé */}

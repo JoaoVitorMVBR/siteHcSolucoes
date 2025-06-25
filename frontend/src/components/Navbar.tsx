@@ -13,10 +13,10 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false)
 
   const navItems: NavItem[] = [
-    { name: 'Home', href: '/' },
-    { name: 'cursos', href: '/cursos' },
-    { name: 'Contato', href: '/contato' },
-    { name: 'Sobre Nós', href: '/sobre' },
+    // { name: 'Home', href: '/' },
+    { name: 'cursos', href: '#cursos' },
+    { name: 'Contato', href: '#contato' },
+    { name: 'Sobre Nós', href: '#sobre' },
   ]
 
   const LinkWrapper = ({
