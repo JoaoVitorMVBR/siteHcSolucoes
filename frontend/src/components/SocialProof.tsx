@@ -1,7 +1,7 @@
 // components/SocialProof.tsx
 'use client';
 
-import Image from 'next/image';
+// import Image from 'next/image';
 import { FaStar } from 'react-icons/fa';
 
 const SocialProof: React.FC = () => {
@@ -10,19 +10,16 @@ const SocialProof: React.FC = () => {
       name: 'Elson',
       text: 'Muito boa sua palestra de hoje!',
       rating: 5,
-      image: '/images/imgWoman.jpeg',
     },
     {
       name: 'Moisés',
       text: 'Seria bom falar com vocês o dia todo para aprender mais! Várias pessoas me mandaram mensagem falando que foi muito bom.',
       rating: 5,
-      image: '/images/imgWoman.jpeg',
     },
     {
       name: 'Jefferson',
       text: 'Muito top seu treinamento. Obrigado!',
       rating: 4,
-      image: '/images/imgWoman.jpeg',
     },
   ];
 
@@ -56,7 +53,7 @@ const SocialProof: React.FC = () => {
                 ))}
               </div>
               <p className="font-[roboto-standard] text-gray-700 text-sm sm:text-base">
-                "{testimonial.text}"
+                {`"${testimonial.text}"`}
               </p>
             </div>
           ))}

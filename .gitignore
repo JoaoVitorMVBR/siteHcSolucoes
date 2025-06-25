@@ -41,6 +41,7 @@ frontend/*.sublime-workspace
 # Opcional: ignorar pastas de assets temporários
 /frontend/public/static/
 /frontend/public/images/galeria
+**/*.stories.tsx
 
 
 # Ignorar Storybook se usar

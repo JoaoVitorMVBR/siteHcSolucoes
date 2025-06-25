@@ -1,7 +1,6 @@
 // app/page.tsx
 import Navbar from '@/components/Navbar';
 import HeroBanner from '@/components/BannerHero';
-import FAQSection from '@/components/Faq';
 import Footer from '@/components/Footer';
 import Highlights from '@/components/Highlights';
 import Whychose from '@/components/whyChose';
@@ -27,7 +26,6 @@ export default function HomePage() {
         <About />
         <SocialProof />
         <WhyNotchose /> 
-        {/* <FAQSection /> */}
         <WppFloat />
       </main>
 
