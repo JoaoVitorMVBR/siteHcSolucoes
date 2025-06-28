@@ -8,6 +8,7 @@ import SocialProof from '@/components/SocialProof';
 import WppFloat from '@/components/wppFloat';
 import About from '@/components/About';
 import WhyNotchose from '@/components/whyNotChose';
+import Gallery from '@/components/Gallery';
 
 
 export default function HomePage() {
@@ -24,6 +25,7 @@ export default function HomePage() {
         <Highlights />
         <Whychose />
         <About />
+        <Gallery />
         <SocialProof />
         <WhyNotchose /> 
         <WppFloat />
