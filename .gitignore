@@ -47,3 +47,4 @@ frontend/*.sublime-workspace
 # Ignorar Storybook se usar
 /frontend/.storybook-out/
 /frontend/out-storybook/
+frontend/public/favImages
