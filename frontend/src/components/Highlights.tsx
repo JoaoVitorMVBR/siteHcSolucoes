@@ -45,6 +45,38 @@ const Highlights: React.FC = () => {
       image: '/images/cursos/nr-35.webp',
       slug: 'gestao-de-projetos-avancada',
       link: 'https://go.hotmart.com/R89967397Q'
+    },
+        {
+      id: 6,
+      name: 'PEMT',
+      description: 'Plataforma Elevatória Móvel de Trabalho',
+      image: '/images/cursos/pemt.jpeg',
+      slug: 'gestao-de-projetos-avancada',
+      link: 'https://go.hotmart.com/O102790312S?dp=1'
+    },
+        {
+      id: 7,
+      name: 'NR-6',
+      description: 'Equipamentos de Proteção Individual (EPI)',
+      image: '/images/cursos/nr6.jpeg',
+      slug: 'gestao-de-projetos-avancada',
+      link: 'https://go.hotmart.com/D102751458N?dp=1'
+    },
+        {
+      id: 8,
+      name: 'NR-10',
+      description: 'Segurança em Instalações e Serviços em Eletricidade',
+      image: '/images/cursos/nr10.jpeg',
+      slug: 'gestao-de-projetos-avancada',
+      link: 'https://go.hotmart.com/N102790073E?dp=1'
+    },
+        {
+      id: 9,
+      name: 'NR-11',
+      description: 'Trabalho em Altura',
+      image: '/images/cursos/nr11.png',
+      slug: 'gestao-de-projetos-avancada',
+      link: 'https://go.hotmart.com/T102803477S?dp=1'
     }
   ];
 
