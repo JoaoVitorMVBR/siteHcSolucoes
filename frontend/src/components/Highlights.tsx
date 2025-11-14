@@ -72,9 +72,9 @@ const Highlights: React.FC = () => {
     },
         {
       id: 9,
-      name: 'NR-11',
-      description: 'Trabalho em Altura',
-      image: '/images/cursos/nr11.png',
+      name: 'Ponte rolante',
+      description: 'Operador de Ponte Rolante',
+      image: '/images/cursos/ponteRolante.jpeg',
       slug: 'gestao-de-projetos-avancada',
       link: 'https://go.hotmart.com/T102803477S?dp=1'
     }
